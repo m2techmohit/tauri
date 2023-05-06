@@ -46,7 +46,7 @@ jobs:
           APPLE_SIGNING_IDENTITY: ME TRADING LLC
           APPLE_ID: incluemohit@gmail.com
           APPLE_PASSWORD: Mohraj@2305
-          with:  workspaces: './src-tauri -> target'
+          with:  
           tagName: app-v__VERSION__ # the action automatically replaces \_\_VERSION\_\_ with the app version
           releaseName: 'App v__VERSION__'
           releaseBody: 'See the assets to download this version and install.'
