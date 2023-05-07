@@ -36,7 +36,7 @@ jobs:
         # If you don't have `beforeBuildCommand` configured you may want to build your frontend here too.
         run: yarn install # Change this to npm, yarn or pnpm.
 
-      - name: Build the app
+      - name: Moit Tauri
         uses: tauri-apps/tauri-action@v0
         env:
           GITHUB_TOKEN: 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
